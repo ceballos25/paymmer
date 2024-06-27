@@ -1,0 +1,101 @@
+:root{
+    --naranja: #f78524;
+    --naranja-claro: #f1984a;
+    --azul: #38B6FF;
+    --azul-claro: #38B6FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.img-logo{
+    border-radius: 50%;
+    color: rgb(255, 0, 0);
+    color: #ff25;
+}
+
+.button-comprar{
+text-align: center;
+margin-top: 20px;
+}
+
+.btn-primary-comprar{
+    background-color: var(--azul);
+    color: black;
+}
+
+.btn-promociones{
+    color: #fff;
+    font-weight: 700;
+    background-color: var(--naranja);
+    padding: 0, 15px;
+}
+
+.btn-promociones:hover{
+    background-color: var(--naranja-claro);
+}
+
+
+.btn-primary-comprar:hover{
+    background-color: var(--azul);
+    color: #fff;
+}
+
+.text-primary-paymmer{
+    color: var(--azul-claro);
+    font-weight: 700;
+    font-style: oblique;
+}
+
+/* Clase para ocultar elementos con transición */
+.d-none {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Clase para mostrar elementos con transición */
+.d-block {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* ofrestas destacadas */
+.ofertas-destacadas {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem; 
+    color: #000000; 
+    background-color: var(--azul);
+    padding: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.bg-paymmer-orange{
+    background-color: #f78524;
+}
+.bg-paymmer-blue{
+    background-color: #38B6FF;
+}
+
